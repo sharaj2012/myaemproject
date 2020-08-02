@@ -1,7 +1,7 @@
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 What is a Maven project? - Apache Maven is a software management tool to build projects. All Adobe Experience Manager implementations use Maven projects to build, manage and deploy custom code on top of AEM.
 What is a Maven archetype? - A Maven archetype is a template or pattern for generating new projects. The AEM Project archetype allows us to generate a new project with a custom namespace and include a project structure that follows best practices, greatly accelerating our project.
-
+  
 Modules:
 The main parts of the template are:
 • core: Java bundle containing all core functionality like OSGi services, listeners or schedulers, as well as component-related Java code such as servlets or request filters. : mvn -PautoInstallBundle clean install
